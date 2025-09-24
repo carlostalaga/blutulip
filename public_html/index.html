@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flower Delivery Adelaide - The Blu Tulip</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <style>
+    /*
+      Josh's Custom CSS Reset
+      https://www.joshwcomeau.com/css/custom-css-reset/
+    */
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    * {
+      margin: 0;
+    }
+    body {
+      line-height: 1.4;
+      -webkit-font-smoothing: antialiased;
+    }
+    img, picture, video, canvas, svg {
+      display: block;
+      max-width: 100%;
+    }
+    input, button, textarea, select {
+      font: inherit;
+    }
+    p, h1, h2, h3, h4, h5, h6 {
+      overflow-wrap: break-word;
+    }
+
+
+    /* https://www.trysmudford.com/blog/a-good-reset/ */
+
+    button {
+      -webkit-appearance: none;
+      border-radius: 0;
+      text-align: inherit;
+      background: none;
+      box-shadow: none;
+      padding: 0;
+      cursor: pointer;
+      border: none;
+      color: inherit;
+      font: inherit;
+    }
+
+    /* https://piccalil.li/blog/my-favourite-3-lines-of-css/ */
+    .flow > * + * {
+      margin-block-start: var(--flow-space, 1em);
+    }
+
+    .flow--sm > * {
+      --flow-space: 0.75em;
+    }
+
+    .visually-hidden {
+      clip: rect(0 0 0 0); 
+      clip-path: inset(50%);
+      height: 1px;
+      overflow: hidden;
+      position: absolute;
+      white-space: nowrap; 
+      width: 1px;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    html {
+      background: #f1eae2;
+      color: #00283f;
+      
+
+      font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+      font-size: clamp(1em, calc(0.6em + 1vw), 1.5em);
+      font-weight: 300;
+    }
+
+    body {
+      
+    }
+
+    header {
+      padding-top: 5rem;
+
+      background: #00283f;
+      color: #fff;
+    }
+
+    .logo {
+      max-width: 15rem;
+      margin-inline: auto;
+    }
+
+    .container {
+      max-width: 75ch;
+      margin-inline: auto;
+      padding-inline: 1.5em;
+    }
+
+    main {
+      padding-block: 2rem;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    strong, b {
+      font-weight: 700;
+    }
+
+    h1 {
+      margin-bottom: 0.5em;
+
+      font-size: 3rem;
+      font-weight: 700;
+      line-height: 1;
+      /* text-wrap: balance; */
+    }
+
+    @media(max-width: 500px) {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+
+    .subheading {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #71b0de;
+    }
+
+    .subheading + p {
+      --flow-space: 0.25lh;
+    }
+
+    .text-light-blue {
+      color: #71b0de;
+    }
+  </style>
+</head>
+<body class="flow">
+  <header>
+    <div class="container"><img src="/logo.jpg" alt="The Blu Tulip logo" class="logo"></div>
+  </header>
+
+  <main>
+    <div class="container text-center flow flow--sm">
+      <h1>
+        OUR WEBSITE IS CURRENTLY&nbsp;DOWN.
+      </h1>
+      <p class="subheading">
+        WE ARE SORRY FOR THE INCONVENIENCE.
+      </p>
+      <p>
+        Our website is currently experiencing some technical issues. But don’t worry, our flowers are still blooming beautifully.
+      </p>
+      <p>For flower selections or to place an order, please pop in and see us at <br><strong>10 Jetty Street, Grange SA 5022</strong></p>
+      <p>Or give us a call on <strong>08 8355 0204</strong> and our friendly team will be delighted to help.</p>
+      <p>Thank you for your patience and support while we get back online!</p>
+      <p><strong>Phone Number:</strong> <b class="text-light-blue">(08) 8355 0204</b></p>
+      <p><strong>Address:</strong> <b class="text-light-blue">10 Jetty St, Grange SA 5022</b></p>
+    </div>
+  </main>
+
+</body>
+</html>
